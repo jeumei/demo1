@@ -6,10 +6,10 @@ The shapes are placeholders. The layers and the audio binding live in one place:
 
 ## Build (Windows)
 
-Requirements: Visual Studio 2022 (Desktop development with C++), CMake 3.22+, git. JUCE is downloaded automatically during configure.
+Requirements: Visual Studio 2022 or newer (Desktop development with C++), CMake 3.22+, git. JUCE is downloaded automatically during configure.
 
 ```
-cmake -B build -G "Visual Studio 17 2022" -A x64
+cmake -B build -A x64
 cmake --build build --config Release
 ```
 
